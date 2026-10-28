@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0d141b" />
+    <title>Evidence & publication notes — Matias Laukka</title>
+    <style>
+      body {
+        font:
+          17px/1.8 system-ui,
+          sans-serif;
+        background: #0d141b;
+        color: #f2f4ef;
+        margin: 0;
+      }
+      main {
+        max-width: 780px;
+        margin: 50px auto;
+        padding: 0 24px 60px;
+      }
+      h1 {
+        font-size: 42px;
+        line-height: 1.1;
+        letter-spacing: -0.04em;
+      }
+      h2 {
+        font-size: 23px;
+        margin-top: 40px;
+      }
+      p,
+      li {
+        color: #abb9c2;
+      }
+      a {
+        color: #b3ebcb;
+        overflow-wrap: anywhere;
+      }
+      li {
+        margin-bottom: 16px;
+      }
+      a:focus-visible {
+        outline: 2px solid #b3ebcb;
+        outline-offset: 4px;
+      }
+      small {
+        font-size: 13px;
+      }
+      code {
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="./">← Back to portfolio</a>
+      <h1>Evidence, with the boundaries visible.</h1>
+      <p>
+        Evidence snapshot prepared October 28, 2026. Source projects are
+        independent repositories. No support, mailbox or career system is
+        connected to this website.
+      </p>
+      <h2>Knotty sources</h2>
+      <p>
+        Inspected checkout:
+        <code>48a39956152b1b73996cff272248ed7c0f0cd8a2</code>. These links are
+        pinned to that revision.
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/MatiasLaukka/Support-Ticket-Triage-MCP/blob/48a39956152b1b73996cff272248ed7c0f0cd8a2/README.md"
+            >README: operational capabilities, Hybrid boundaries and E1a
+            aggregates</a
+          >. E1a counts are repository-reported historical results, not a new
+          evaluation performed for this site. Raw experiment artifacts and
+          sealed review material were not accessed. Diagnostic-accuracy
+          adjudication is unfinished.
+        </li>
+        <li>
+          <a
+            href="https://github.com/MatiasLaukka/Support-Ticket-Triage-MCP/blob/48a39956152b1b73996cff272248ed7c0f0cd8a2/data/seed/tickets.json#L352"
+            >TKT-1010 synthetic seed</a
+          >
+          and
+          <a
+            href="https://github.com/MatiasLaukka/Support-Ticket-Triage-MCP/blob/48a39956152b1b73996cff272248ed7c0f0cd8a2/src/approval-desk/automatic-customer-replies.ts#L256"
+            >controlled synthetic replies</a
+          >. The nine-stage portfolio walkthrough is a reconstruction: quotes
+          are fixture text, other wording is explanatory. There is no captured
+          execution trace, live model, real customer or claimed resolution.
+        </li>
+        <li>
+          <a
+            href="https://github.com/MatiasLaukka/Support-Ticket-Triage-MCP/blob/48a39956152b1b73996cff272248ed7c0f0cd8a2/docs/demo-results.md"
+            >Documented expected demo outcomes</a
+          >. Expected results are not a fresh execution.
+        </li>
+        <li>
+          <a
+            href="https://github.com/MatiasLaukka/Support-Ticket-Triage-MCP/blob/48a39956152b1b73996cff272248ed7c0f0cd8a2/docs/case-study.md"
+            >Architecture and engineering history</a
+          >: deterministic policy, governed approval, transactional SQLite,
+          replay and learning outbox.
+        </li>
+        <li>
+          <a
+            href="https://github.com/MatiasLaukka/Support-Ticket-Triage-MCP/blob/48a39956152b1b73996cff272248ed7c0f0cd8a2/reports/retrieval/knowledge-readiness-v1/README.md"
+            >Knowledge readiness B3 development report</a
+          >: 21 synthetic development cases; 20 applicable for article recall.
+          Incomplete labels mean precision is unavailable. Recall@1 .850/.900
+          and Recall@5 1.000/1.000 are lexical/semantic retrieval results. The
+          37/47 and 40/47 supporting-section results use judged resource/channel
+          pairs across resource types. They do not measure diagnostic accuracy
+          or prove Hybrid superiority.
+        </li>
+      </ul>
+      <h2>Coding Agent Harness sources</h2>
+      <p>
+        Inspected checkout:
+        <code>0ecb4cd83f0a66d960b6ea2e4aee155cd5e04680</code>.
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/MatiasLaukka/coding-agent-harness/blob/0ecb4cd83f0a66d960b6ea2e4aee155cd5e04680/docs/reliability-r2-findings.md"
+            >R2 reproduction, corrections, regression evidence and
+            limitations</a
+          >. Historical report: 228 baseline tests; final offline suite 256
+          passed. These tests were not rerun for this portfolio. Scope
+          observation occurs after writes and is not a sandbox.
+        </li>
+        <li>
+          <a
+            href="https://github.com/MatiasLaukka/coding-agent-harness/blob/0ecb4cd83f0a66d960b6ea2e4aee155cd5e04680/README.md"
+            >README: architecture, status and AI collaboration attribution</a
+          >.
+        </li>
+      </ul>
+      <h2>Harness follow-up reliability evidence</h2>
+      <p>
+        <a
+          href="https://github.com/MatiasLaukka/coding-agent-harness/blob/0ecb4cd83f0a66d960b6ea2e4aee155cd5e04680/docs/engineering-notes.md"
+          >Engineering findings</a
+        >
+        trace the inherited-pipe timeout reproduction, bounded output collection
+        and regression evidence. These are historical controlled probes, not
+        current throughput benchmarks.
+        <a
+          href="https://github.com/MatiasLaukka/coding-agent-harness/blob/0ecb4cd83f0a66d960b6ea2e4aee155cd5e04680/docs/reliability-r4-bounded-git.md"
+          >R4 boundaries</a
+        >
+        explain later Git phase deadlines and the separate supervisor preflight
+        reader that remains outside those output limits. Neither process
+        discovery nor Git evidence is an OS sandbox.
+      </p>
+      <h2>Harness execution and contribution</h2>
+      <p>The public revision above was rechecked on October 28, 2026. The local portfolio checkout at <code>0c6333c12152fa1c280ef43fcda07a521e059743</code>, its source/test files and the October 21 PDF/PPTX case study were also inspected. The <a href="https://github.com/MatiasLaukka/coding-agent-harness/blob/0ecb4cd83f0a66d960b6ea2e4aee155cd5e04680/README.md">README</a> distinguishes one-invocation <code>run</code> readiness from human-reviewed <code>control</code> acceptance. The latter has fresh dispatch/review authorization and at most one explicitly enabled remediation. Local process execution does not imply local model inference. No source-project tests or workers were run for this expansion.</p>
+      <h2>Career Desk implementation evidence</h2>
+      <p>The private Windows application source is now available for inspection. <a href="./career-desk-evidence.html">Read the public implementation-evidence summary</a>, including the dated Duunitori correction, historical test evidence and limits. Inspected local HEAD <code>de4a84d0209cf6a7d09c12f9a8f2c5d8c6663975</code> has uncommitted authentication, refresh and ingestion fixes; the internal record preserves file hashes rather than attributing them all to HEAD.</p>
+      <p>The October 26 authenticated Duunitori report supersedes the older README's unverified-delivery limitation for that publisher: 8 new leads, 9 corrected, 17 persisted; repeat replay 0 created / 0 corrected. These are documented historical results, not new executions here. All alert candidates remain Lead — details needed. Neither full vacancy details nor matching accuracy nor Jobly/Työmarkkinatori delivery is established. The separate Interview Coach prototype was inspected independently; live model compatibility and coaching quality remain unverified.</p>
+      <h2>Latent Flow Memory sources</h2>
+      <p>Selected public source, tests and an archived report were inspected on October 28, 2026 at <code>605dbace308926e064f4e02be3a86b81c6534f79</code>. Main still pointed to that revision when checked. No root README exists there; implementation evidence comes from the following files.</p>
+      <ul>
+        <li><a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/src/encoder.py">Frozen embedding encoder</a>: configured pretrained model, normalized 384-dimensional vectors. No weights loaded or downloaded.</li>
+        <li><a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/src/thought_routes.py">Thought routes</a> and <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/src/route_inhibition.py">contextual inhibition</a>: implemented stateful mechanisms, not neural-policy training.</li>
+        <li><a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/src/learning_events.py">Learning event ledger</a>, <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/src/memory_replay.py">replay projection</a> and <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/src/retention.py">retention authority</a>. Provenance and fingerprints do not establish authenticity or transactional durability.</li>
+        <li><a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/tests/test_memory_lifecycle_integration.py">Lifecycle integration scenario</a>: routes, inhibition, relation, disposition and traces are asserted across two equal-fingerprint replays. Test source read, not executed.</li>
+        <li><a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/reports/experience-routing/latest.json">Archived V1 routing report</a> and <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/src/benchmarking/experience_routing_v2.py">V2 benchmark code</a>: the archived V1 report records 48 unique synthetic cases under three conditions and six distractor loads (0, 4, 8, 16, 32, 48). Portfolio review recomputed all 18 aggregate cells from 864 recorded rows: every condition/load scored 41/48 exact routes and 41/48 correct final answers (85.4%). The same cases recur across conditions and loads; these are not 864 independent tasks. Semantic baseline already scored 12/12 on learned-route paraphrases. This battery therefore shows no measured reinforcement advantage, and provides no production-gain claim. Archive provenance dates the run September 15, 2026 and identifies experimental revision 4afd2bb; no experiment, model or source-project test was rerun. The debugging example on the portfolio is explicitly illustrative.</li>
+      </ul>
+      <h2>Earlier prototype results</h2>
+      <p>Saved local text outputs record 6/6 final-candidate matches for six fixed linked-branching queries and 72/72 for composition queries (16 curated hard, 16 straightforward and 40 generated). The composition distractor output also exposes a limit: 72/72 correct at 0 and 3 distractors, 37/72 at 8, and 0/72 at 18 and 48. Composition and scaling correctness means that the top-ranked final candidate equals the expected destination city; the branching queries also include founder and operating-region answers. The same 72 composition queries recur across loads; these are not 360 independent tasks.</p>
+      <p>These are historical, unversioned local outputs with no embedded run date or source revision. They were read, not rerun. They are separate from the September 15 V1 routing report and do not establish a controlled memory advantage or an improvement between versions. Public implementation references: <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/experiments/linked_flow_branching.py">linked branching</a>, <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/experiments/composition_robustness.py">composition queries</a>, <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/experiments/composition_distractor_scaling.py">distractor scaling</a> and <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/src/robustness.py">final-candidate scoring</a>. These code links describe the inspected implementation; they are not versioned copies of the local result logs.</p>
+      <h2>Artificial Twins and exploratory comparisons</h2>
+      <p>Artificial Twins means comparable artificial systems with different experience histories, evaluated on the same held-out task. The owner reports small exploratory comparisons. The <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/docs/superpowers/specs/2026-09-15-latent-flow-memory-thoughtspace-foundation-design.md">September 15 design</a> mentions earlier path-dependence experiments and defines a future controlled competence evaluation. A completed twin run artifact was not located in the inspected revision, so no measured twin advantage is asserted.</p>
+      <p>The <a href="https://github.com/MatiasLaukka/latent-flow-memory/blob/605dbace308926e064f4e02be3a86b81c6534f79/experiments/schema_consolidation.py">August 10 schema-transfer experiment implementation</a> compares graph-only, episodic-only and episodic-plus-schema conditions on declared headquarters and protected-intent queries. Its source includes measurement and regression checks; inspected source alone does not establish the outcome of a completed run. Different trajectories alone would not establish better competence.</p>
+      <h2>Owner-provided background</h2>
+      <p>The personal background, relatives' occupations and educational paths in the About section are owner-provided accounts authorized for this portfolio on October 28, 2026. They explain personal context; they are not independent evidence of technical skill, workplace performance or inherited ability.</p>
+      <p>
+        Education at Laurea UAS and professional Apps Script work at IP-Agency
+        Finland include owner-provided accounts and career documentation. The
+        October 23 experience record and evidence guide were inspected for this
+        expansion. Older CV and presentation wording is historical; it does
+        not override current implementation evidence. No financial or
+        time-saving impact or employer permission to publish internal material
+        is asserted. No internal employer code is included.
+      </p>
+      <h2>Contribution and privacy</h2>
+      <p>
+        Personal projects involve substantial AI collaboration under the owner’s
+        direction. The site describes architecture, investigation, testing,
+        integration and review, without claiming sole manual authorship. Exact
+        per-change contribution should be confirmed by the owner.
+      </p>
+      <p>
+        This website contains public project descriptions and cited synthetic
+        examples. It has no connected support, mailbox or career system. No
+        email address, phone number, private career record, credential or sealed
+        evaluation mapping is included. Font files are self-hosted under the SIL
+        Open Font License.
+      </p>
+    </main>
+  </body>
+</html>
+
